@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.portfolio-container {
+    width: 500px; /* Width of the square */
+    height: 500px; /* Height of the square */
+    background-color: #ff6f61; /* Red background color */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Shadow for depth */
+    overflow: hidden; /* Hide overflow content */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1em;
+}
+
+section {
+    padding: 10px;
+}
+
+h2 {
+    color: white; /* White text for headers */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px; /* Adjust margin for better spacing */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white; /* Link color */
+}
